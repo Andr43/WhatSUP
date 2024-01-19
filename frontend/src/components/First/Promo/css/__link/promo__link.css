@@ -1,0 +1,7 @@
+.promo__link{
+  margin-bottom: 24px;
+}
+
+.promo__link:last-child{
+  margin-bottom: 0;
+}

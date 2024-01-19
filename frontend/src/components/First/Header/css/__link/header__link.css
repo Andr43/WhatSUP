@@ -1,0 +1,10 @@
+.header__link{
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+.header__link:last-child{
+  margin-right: 0;
+}
