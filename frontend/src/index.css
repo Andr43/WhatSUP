@@ -9,3 +9,8 @@
 @import url("./components/First/Promo/css/__link/promo__link.css");
 @import url("./components/First/Promo/css/__links/promo__links.css");
 @import url("./components/First/Promo/css/__par/promo__par.css");
+@import url("./components/Main/AboutUs/css/AboutUs.css");
+@import url("./components/Main/AboutUs/css/__description/about-us__description.css");
+@import url("./components/Main/AboutUs/css/__header/about-us__header.css");
+@import url("./components/Main/AboutUs/css/__par/about-us__par.css");
+@import url("./components/Main/AboutUs/css/__image/about-us__image.css");

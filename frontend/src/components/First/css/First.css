@@ -1,5 +1,4 @@
 .first{
-background: url("../../../images/first__img.jpg") center center/100% 100%
+background: linear-gradient(transparent, 68%, #0B1D26), url("../../../images/photo_2023-08-03_17-36-21.jpg") center center/100% 100%
 no-repeat;
-font-family: "PT Serif", sans-serif;
 }

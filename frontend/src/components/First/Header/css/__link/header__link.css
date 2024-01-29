@@ -1,8 +1,8 @@
 .header__link{
   font-size: 18px;
   text-decoration: none;
-  color: #000;
-  margin-right: 10px;
+  margin-right: 20px;
+  color: #fff;
 }
 
 .header__link:last-child{
