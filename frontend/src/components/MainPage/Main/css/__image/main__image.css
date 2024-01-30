@@ -1,0 +1,7 @@
+.main__image{
+  width: 320px;
+  height: 420px;
+  position: relative;
+  bottom: 100px;
+  border-radius: 20px;
+}

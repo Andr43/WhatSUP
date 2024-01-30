@@ -1,0 +1,6 @@
+.footer__par_phone::before {
+  position: relative;
+  top: 1px;
+  right: 10px;
+  content: url("../../../../../../images/phone-call.png");
+}

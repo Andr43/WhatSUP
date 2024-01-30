@@ -1,0 +1,10 @@
+.footer__par_email {
+  margin-bottom: 100px;
+}
+
+.footer__par_email::before {
+  position: relative;
+  top: 1px;
+  right: 10px;
+  content: url("../../../../../../images/email.png");
+}

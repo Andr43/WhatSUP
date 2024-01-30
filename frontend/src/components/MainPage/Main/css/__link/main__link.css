@@ -1,0 +1,15 @@
+.main__link{
+  margin: 0;
+  margin-top: 27px;
+  font-size: 18px;
+  display: block;
+  color: #FBD784;
+  text-decoration: none;
+}
+
+.main__link::after{
+  position: relative;
+  left: 16px;
+  top: 2px;
+  content: url("../../../../../images/arrow.png");
+}

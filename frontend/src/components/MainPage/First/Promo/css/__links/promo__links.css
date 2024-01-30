@@ -1,0 +1,6 @@
+.promo__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 200px;
+}

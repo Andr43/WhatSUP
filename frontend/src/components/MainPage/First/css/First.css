@@ -1,0 +1,5 @@
+.first {
+  background: linear-gradient(transparent, 68%, #0b1d26),
+    url("../../../../images/photo_2023-08-03_17-36-21.jpg") center center/100% 100%
+      no-repeat;
+}
