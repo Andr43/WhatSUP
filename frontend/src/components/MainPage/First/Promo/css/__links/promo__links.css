@@ -2,5 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 200px;
+  margin-right: 230px;
+}
+
+@media screen and (max-width: 1024px) {
+  .promo__links{
+    margin-right: 130px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo__links{
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .promo__links{
+    margin-right: 230px;
+  }
 }

@@ -5,3 +5,15 @@
   color: #fff;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .promo__par{
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .promo__par{
+    margin-bottom: 14px;
+  }
+}
