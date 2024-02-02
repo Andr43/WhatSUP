@@ -6,10 +6,17 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  .main__image{
+    height: 400px;
+    bottom: 80px;
+  }
+}
 @media screen and (max-width: 768px) {
   .main__image{
-    width: 280px;
-    height: 380px;
+    width: 250px;
+    height: 330px;
+    bottom: 90px;
   }
 }
 

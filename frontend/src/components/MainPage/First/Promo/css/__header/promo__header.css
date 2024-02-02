@@ -7,6 +7,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .promo__header {
+    font-size: 68px;
+    max-width: 680px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .promo__header{
     font-size: 68px;

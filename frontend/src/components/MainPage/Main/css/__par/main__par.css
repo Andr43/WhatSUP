@@ -4,3 +4,27 @@
   max-width: 432px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 1200px) {
+  .main__par{
+    max-width: 370px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main__par{
+    max-width: 300px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main__par{
+    max-width: 250px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+  .main__par{
+    font-size: 68px;
+  }
+}
