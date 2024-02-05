@@ -17,13 +17,8 @@
     padding-left: 150px;
   }
 }
-@media screen and (max-width: 768px) {
-  .about-us {
-    padding-left: 150px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  .about-us {
-    padding-left: 150px;
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .about-us{
+    padding-left: 100px;
   }
 }

@@ -15,9 +15,8 @@
     padding-bottom: 204px;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
   .promo{
-    padding-bottom: 344px;
+    padding-bottom: 253px;
   }
 }

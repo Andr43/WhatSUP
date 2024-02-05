@@ -18,15 +18,16 @@
     font-size: 68px;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 900px) {
   .promo__header{
     font-size: 58px;
     max-width: 500px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
   .promo__header{
-    font-size: 68px;
+    font-size: 38px;
   }
 }

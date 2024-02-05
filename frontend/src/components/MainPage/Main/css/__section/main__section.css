@@ -10,3 +10,8 @@
     padding-bottom: 120px;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .main__section {
+    padding-bottom: 120px;
+  }
+}

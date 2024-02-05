@@ -1,0 +1,6 @@
+.header-mobile__head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20vh;
+}

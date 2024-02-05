@@ -4,6 +4,12 @@
 @import url("./components/MainPage/First/Header/css/__name/header__name.css");
 @import url("./components/MainPage/First/Header/css/__links/header__links.css");
 @import url("./components/MainPage/First/Header/css/__link/header__link.css");
+@import url("./components/MainPage/First/Header/css/__button/_burger/header__button_burger.css");
+@import url("./components/MainPage/First/Header/css/__button/_close/header__button_close.css");
+@import url("./components/MainPage/First/Header/HeaderMobile/css/HeaderMobile.css");
+@import url("./components/MainPage/First/Header/HeaderMobile/css/__head/header-mobile__head.css");
+@import url("./components/MainPage/First/Header/HeaderMobile/css/__links/header-mobile__links.css");
+@import url("./components/MainPage/First/Header/HeaderMobile/css/__link/header-mobile__link.css");
 @import url("./components/MainPage/First/Promo/css/Promo.css");
 @import url("./components/MainPage/First/Promo/css/__header/promo__header.css");
 @import url("./components/MainPage/First/Promo/css/__link/promo__link.css");
@@ -32,3 +38,5 @@
 @import url("./components/MainPage/Footer/css/__par/_phone/footer__par_phone.css");
 @import url("./components/MainPage/Footer/css/__link/footer__link.css");
 @import url("./components/MainPage/Footer/css/__header/footer__header.css");
+@import url("./components/visibility/visible/visible.css");
+@import url("./components/visibility/invisible/invisible.css");
