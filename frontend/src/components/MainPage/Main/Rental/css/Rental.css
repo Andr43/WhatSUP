@@ -1,26 +1,35 @@
-.rental{
-  padding-left: 380px;
+@media screen and (min-width: 1700px) {
+  .rental {
+    padding-left: 40vw;
+  }
 }
-
+@media screen and (max-width: 1700px) {
+  .rental {
+    padding-left: 35vw;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .rental {
+    padding-left: 29vw;
+  }
+}
 @media screen and (max-width: 1200px) {
-  .rental{
+  .rental {
     padding-left: 290px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .rental{
+  .rental {
     padding-left: 250px;
   }
 }
 @media screen and (max-width: 900px) {
-  .rental{
+  .rental {
     padding-left: 150px;
   }
 }
-
-
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (min-width: 320px) and (max-width: 500px) {
   .rental{
-    padding-left: 150px;
+    padding-left: 100px;
   }
 }

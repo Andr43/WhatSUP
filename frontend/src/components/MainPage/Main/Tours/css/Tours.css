@@ -1,7 +1,13 @@
-.tours{
-  padding-left: 180px;
+@media screen and (min-width: 1700px) {
+  .tours {
+    padding-left: 20vw;
+  }
 }
-
+@media screen and (max-width: 1700px) {
+  .tours {
+    padding-left: 15vw;
+  }
+}
 @media screen and (max-width: 1200px) {
   .tours{
     padding-left: 150px;

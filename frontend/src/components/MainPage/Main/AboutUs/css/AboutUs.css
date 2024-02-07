@@ -1,7 +1,18 @@
-.about-us {
-  padding-left: 380px;
+@media screen and (min-width: 1700px) {
+  .about-us {
+    padding-left: 40vw;
+  }
 }
-
+@media screen and (max-width: 1700px) {
+  .about-us {
+    padding-left: 35vw;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .about-us {
+    padding-left: 29vw;
+  }
+}
 @media screen and (max-width: 1200px) {
   .about-us {
     padding-left: 290px;

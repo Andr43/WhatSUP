@@ -2,27 +2,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 230px;
 }
 
-@media screen and (max-width: 1200px) {
-  .promo__links{
-    margin-right: 150px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .promo__links{
-    margin-right: 110px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .promo__links{
-    margin-right: 60px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 500px) {
-  .promo__links{
-    margin-right: 30px;
-  }
-}

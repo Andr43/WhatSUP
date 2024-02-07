@@ -1,11 +1,10 @@
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .about-us__image {
     z-index: 0;
- position: absolute;
-top: 455px;
-right: 10px;
-background: #000;
-opacity: .5;
+    position: absolute;
+    top: 455px;
+    right: 10px;
+    background: #000;
+    opacity: 0.5;
   }
 }
-
