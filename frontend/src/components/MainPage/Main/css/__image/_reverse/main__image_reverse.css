@@ -1,0 +1,47 @@
+.main__image_reverse{
+  width: calc((100% - 20vw) * 0.4);
+}
+@media screen and (min-width: 1700px) {
+  .main__image_reverse{
+    width: calc((100% - 13vw) * 0.4);
+  }
+}
+@media screen and (max-width: 1400px) {
+  .main__image_reverse{
+    width: calc((100% - 14vw) * 0.4);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main__image_reverse{
+    width: calc((100% - 140px) * 0.4);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main__image_reverse{
+    width: calc((100% - 150px) * 0.4);
+  }
+}
+@media screen and (max-width: 950px) {
+  .main__image_reverse{
+    width: calc((100% - 70px) * 0.4);
+  }
+}
+@media screen and (max-width: 550px) {
+  .main__image_reverse {
+    width: calc(100% * 0.4);
+  }
+}
+@media screen and (max-width: 500px) {
+  .main__image_reverse{
+    position: absolute;
+    left: 12%;
+    bottom: 260px;
+    background-color: #000;
+    opacity: .7;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .main__image_reverse{
+    left: 4%;
+  }
+}

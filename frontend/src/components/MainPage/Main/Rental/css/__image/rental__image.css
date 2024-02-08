@@ -1,11 +1,11 @@
-.rental__image{
-  margin-left: 60px;
-  position: relative;
-  bottom: 50px;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .rental__image{
-    margin-left: 40px;
+    bottom: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .rental__image{
+    bottom: 260px;
+    left: 37%;
   }
 }

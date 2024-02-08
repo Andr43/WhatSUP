@@ -1,6 +1,6 @@
 @media screen and (min-width: 1700px) {
   .tours {
-    padding-left: 20vw;
+    padding-left: 13vw;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -18,15 +18,19 @@
     padding-left: 100px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .tours{
     padding-left: 80px;
   }
 }
-
-
-@media screen and (min-width: 320px) and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .tours{
-    padding-left: 150px;
+    padding-left: 50px;
   }
+}
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .tours{
+        padding-top: 200px;
+        padding-left: 0;
+      }
 }

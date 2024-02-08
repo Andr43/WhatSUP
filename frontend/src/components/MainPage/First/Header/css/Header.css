@@ -7,9 +7,19 @@
   color: #fff;
 }
 
+@media screen and (min-width: 1700px) {
+  .header {
+    margin: 0 80px 300px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .header{
     margin: 0 60px 200px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header{
+    margin: 0 40px 200px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {

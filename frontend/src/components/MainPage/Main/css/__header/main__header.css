@@ -5,6 +5,12 @@
   font-size: 40px;
 }
 
+@media screen and (min-width: 1700px) {
+  .main__header{
+    font-size: 60px;
+    padding-top: 220px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .main__header{
     padding-top: 0;
@@ -13,15 +19,6 @@
 @media screen and (max-width: 900px) {
   .main__header{
     font-size: 30px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .main__header{
     margin-bottom: 15px;
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  .promo__header{
-    font-size: 68px;
   }
 }

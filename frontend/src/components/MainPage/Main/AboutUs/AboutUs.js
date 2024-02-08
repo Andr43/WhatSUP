@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function AboutUs() {
   return (
     <section className="about-us main__section">
-      <div className="about-us__description">
+      <div className="about-us__description main__description">
         <h2 className="about-us__header main__header">About Us</h2>
         {window.innerWidth > 500 ? (
           <p className="about-us__par main__par">

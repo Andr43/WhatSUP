@@ -18,6 +18,18 @@
   height: 16px;
 }
 
+@media screen and (min-width: 1700px) {
+  .main__link{
+    font-size: 25px;
+  }
+  .main__link::after{
+    left: 14px;
+    top: 3px;
+    background-size: 25px 20px;
+    width: 25px;
+    height: 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .main__link{
     font-size: 16px;

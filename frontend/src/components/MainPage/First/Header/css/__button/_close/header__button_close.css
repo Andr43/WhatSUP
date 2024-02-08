@@ -1,15 +1,9 @@
-.header__button_close {
-  box-shadow: none;
-  border: none;
-  background: url("../../../../../../../images/close.svg") center center / 100% 100% no-repeat;
-  padding: 0;
-  height: 75px;
-  width: 50px;
+.header__button_close svg g:first-child {
+  transform: rotate(-45deg) translateY(10px);
 }
-
-@media screen and (min-width: 320px) and (max-width: 500px) {
-  .header__button_close{
-    height: 55px;
-    width: 30px;
-  }
+.header__button_close svg g:nth-child(2) {
+  transform: rotate(45deg);
+}
+.header__button_close svg g:last-child {
+  opacity: 0;
 }

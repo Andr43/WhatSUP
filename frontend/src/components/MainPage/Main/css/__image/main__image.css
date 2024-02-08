@@ -1,27 +1,34 @@
 .main__image{
-  width: 320px;
-  height: 420px;
+  width: 40%;
+  min-width: 180px;
+  aspect-ratio: 16/21;
   position: relative;
   bottom: 100px;
   border-radius: 20px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 700px) {
   .main__image{
-    height: 400px;
     bottom: 80px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 650px) {
   .main__image{
-    width: 250px;
-    height: 330px;
+    bottom: 60px;
   }
 }
 
+@media screen and (max-width: 560px) {
+  .main__image{
+    bottom: 40px;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .main__image{
-    width: 220px;
-    height: 300px;
+    position: absolute;
+    left: 42%;
+    bottom: 225px; 
+    background-color: #000;
+    opacity: .7;
   }
 }
