@@ -1,4 +1,4 @@
-import { React } from "react";
+import { React, useState } from "react";
 import First from "./First/First.js";
 import Main from "./Main/Main.js";
 import Footer from "./Footer/Footer.js";
@@ -6,9 +6,9 @@ import Footer from "./Footer/Footer.js";
 function MainPage() {
   return (
     <>
-      <First/>
-      <Main/>
-      <Footer/>
+      <First />
+      <Main />
+      <Footer />
     </>
   );
 }

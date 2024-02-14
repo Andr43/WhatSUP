@@ -7,19 +7,13 @@ function AboutUs() {
     <section className="about-us main__section">
       <div className="about-us__description main__description">
         <h2 className="about-us__header main__header">About Us</h2>
-        {window.innerWidth > 500 ? (
           <p className="about-us__par main__par">
-            Discover the beauty of Portugal's rivers and lakes with What?Sup!
-            team. We specialize in thrilling SUP tours and top-quality board
-            rentals. With our experienced team and scenic routes, we guarantee
-            an unforgettable adventure. Join us on the water today!
+            Explore the mesmerizing waterways of Portugal with What?SUP!. Immerse
+            yourself in thrilling SUP excursions and opt for our premium board
+            rentals. With seasoned guides and picturesque routes, we ensure an
+            unforgettable journey. Kickstart your aquatic adventure now and
+            delve into the scenic wonders of Portugal's aquatic landscapes!
           </p>
-        ) : (
-          <p className="about-us__par main__par">
-            Discover the beauty of Portugal's rivers and lakes with What?Sup!
-            team.
-          </p>
-        )}
         <Link className="about-us__link main__link" to="">
           read more
         </Link>

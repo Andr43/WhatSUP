@@ -5,8 +5,8 @@ import Promo from "./Promo/Promo.js";
 function First() {
   return (
     <div className="first">
-      <Header/>
-      <Promo/>
+      <Header />
+      <Promo />
     </div>
   );
 }
