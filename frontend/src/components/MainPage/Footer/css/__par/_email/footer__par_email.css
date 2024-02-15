@@ -4,7 +4,7 @@
 
 .footer__par_email::before {
   position: relative;
-  top: 1px;
+  top: 6px;
   right: 10px;
-  content: url("../../../../../../images/email.png");
+  content: url("../../../../../../images/email.svg");
 }

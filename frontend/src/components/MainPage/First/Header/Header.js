@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [is820, setIs820] = useState();
+  const [is820, setIs820] = useState(true);
   const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
 
   useEffect(() => {
@@ -12,8 +12,12 @@ function Header() {
   function handleResize() {
     if (window.innerWidth > 820) {
       setIs820(true);
+      document.body.removeAttribute("style", "overflow: hidden");
     } else {
       setIs820(false);
+      isMobileMenuOpened
+        ? document.body.setAttribute("style", "overflow: hidden")
+        : document.body.removeAttribute("style", "overflow: hidden");
     }
   }
 
@@ -25,7 +29,11 @@ function Header() {
   }
 
   return (
-    <header className={`header ${isMobileMenuOpened ? "header-mobile" : ""}`}>
+    <header
+      className={`header ${
+        isMobileMenuOpened && !is820 ? "header-mobile" : ""
+      }`}
+    >
       <p className="header__name">What?SUP!</p>
       <nav
         className={`header__links ${

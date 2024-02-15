@@ -1,5 +1,5 @@
 .header__link {
-  font-size: 20px;
+  font-size: 1.25em;
   text-decoration: none;
   margin-right: 20px;
   color: #fff;
@@ -11,20 +11,13 @@
 
 @media screen and (min-width: 1700px) {
   .header__link {
-    font-size: 30px;
+    font-size: 1.875em;
     margin-right: 30px;
   }
 }
 @media screen and (max-width: 768px) {
   .header__link {
-    font-size: 16px;
-    margin-right: 15px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 450px) {
-  .header__link {
-    font-size: 16px;
+    font-size: 1em;
     margin-right: 15px;
   }
 }

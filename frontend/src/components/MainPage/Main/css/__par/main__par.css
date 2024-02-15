@@ -1,46 +1,45 @@
-.main__par{
+.main__par {
   margin: 0;
   padding: 0;
   max-width: 432px;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 @media screen and (min-width: 1700px) {
-  .main__par{
+  .main__par {
     max-width: 632px;
-    font-size: 25px;
+    font-size: 1.563em;
   }
 }
 @media screen and (max-width: 1200px) {
-  .main__par{
+  .main__par {
     max-width: 370px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .main__par{
+  .main__par {
     max-width: 310px;
-    font-size: 16px;
+    font-size: 1em;
   }
 }
 @media screen and (max-width: 900px) {
-  .main__par{
-    font-size: 14px;
+  .main__par {
+    font-size: 0.875em;
   }
 }
 @media screen and (max-width: 768px) {
-  .main__par{
+  .main__par {
     max-width: 260px;
   }
 }
 @media screen and (max-width: 700px) {
-  .main__par{
-    font-size: 12px;
+  .main__par {
+    font-size: 0.75em;
     max-width: 240px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .main__par {
-    font-size: 16px;
-   
+    font-size: 1em;
   }
 }

@@ -1,12 +1,15 @@
-.main__section{
+.main__section {
   color: #fff;
   display: flex;
   background-color: #0b1d26;
+  align-items: flex-start;
+  gap: 60px;
   padding-bottom: 200px;
 }
 @media screen and (min-width: 1700px) {
   .main__section {
     padding-left: 26vw;
+    gap: 80px;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -32,6 +35,7 @@
 @media screen and (max-width: 950px) {
   .main__section {
     padding-left: 150px;
+    gap: 40px;
   }
 }
 @media screen and (max-width: 768px) {
