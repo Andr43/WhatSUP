@@ -1,35 +1,35 @@
-.footer{
-padding: 0 180px;
-justify-content: space-between;
+.footer {
+  padding: 0 180px;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1200px) {
-  .footer{
+  .footer {
     padding: 0 160px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .footer{
+  .footer {
     padding: 0 140px;
   }
 }
 @media screen and (max-width: 900px) {
-  .footer{
+  .footer {
     padding: 0 115px;
   }
 }
 @media screen and (max-width: 768px) {
-  .footer{
+  .footer {
     padding: 0 100px;
   }
 }
 @media screen and (max-width: 560px) {
-  .footer{
+  .footer {
     padding: 0 50px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 500px) {
-  .footer{
+  .footer {
     padding: 0 30px;
   }
 }

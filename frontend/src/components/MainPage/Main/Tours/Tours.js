@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Tours() {
   return (
-    <section className="tours main__section">
+    <section className="tours main__section main__section_reverse">
       <img
         className="tours__image main__image main__image_reverse"
         alt="our tour in Douro Valley"
