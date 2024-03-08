@@ -1,10 +1,9 @@
 .header-mobile__links {
   display: flex;
   flex-direction: column;
-  align-self: center;
   text-align: center;
   gap: 30px;
-  position: relative;
-  right: 25px;
+  position: absolute;
   top: 50vh;
+  left: 45%;
 }

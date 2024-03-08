@@ -6,7 +6,7 @@
   justify-content: flex-end;
   max-height: 300px;
   max-width: 71%;
-  gap: 27px 0;
+  gap: 27px 50px;
   padding-bottom: 500px;
 }
 .main__section:last-child {
@@ -16,7 +16,7 @@
 @media screen and (min-width: 1700px) {
   .main__section {
     max-height: 330px;
-    margin-right: 70px;
+    margin-right: 100px;
   }
 }
 @media screen and (min-width: 1400px) {
