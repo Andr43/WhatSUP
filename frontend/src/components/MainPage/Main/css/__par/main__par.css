@@ -29,7 +29,6 @@
 }
 @media screen and (max-width: 768px) {
   .main__par {
-    max-width: 260px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -38,8 +37,17 @@
     max-width: 240px;
   }
 }
+@media screen and (max-width: 600px) {
+  .main__par {
+    font-size: 0.65em;
+    max-width: 240px;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 500px) {
   .main__par {
+    max-width: 180px;
     font-size: 1em;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 }

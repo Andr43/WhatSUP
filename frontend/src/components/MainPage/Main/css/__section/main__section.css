@@ -1,67 +1,94 @@
 .main__section {
-  color: #fff;
+  align-self: flex-end;
   display: flex;
-  background-color: #0b1d26;
-  align-items: flex-start;
-  gap: 60px;
-  padding-bottom: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-height: 300px;
+  max-width: 71%;
+  gap: 27px 0;
+  padding-bottom: 500px;
 }
+.main__section:last-child {
+  padding-bottom: 300px;
+}
+
 @media screen and (min-width: 1700px) {
   .main__section {
-    padding-left: 26vw;
-    gap: 80px;
+    max-height: 330px;
+    margin-right: 70px;
   }
 }
-@media screen and (max-width: 1700px) {
+@media screen and (min-width: 1400px) {
   .main__section {
-    padding-left: 35vw;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .main__section {
-    padding-left: 29vw;
+    max-width: 61%;
   }
 }
 @media screen and (max-width: 1200px) {
   .main__section {
-    padding-left: 290px;
+    padding-bottom: 400px;
   }
 }
 @media screen and (max-width: 1024px) {
   .main__section {
-    padding-left: 250px;
+    padding-bottom: 350px;
   }
 }
 @media screen and (max-width: 950px) {
   .main__section {
-    padding-left: 200px;
-    gap: 40px;
+    padding-bottom: 250px;
+    max-height: 270px;
+    gap: 15px 0;
+  }
+  .main__section:last-child {
+    padding-bottom: 250px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main__section {
+    max-height: 229px;
   }
 }
 @media screen and (max-width: 768px) {
   .main__section {
-    padding-bottom: 120px;
+    padding-bottom: 200px;
+    margin-right: 30px;
+  }
+  .main__section:last-child {
+    padding-bottom: 200px;
   }
 }
 @media screen and (max-width: 650px) {
   .main__section {
-    padding-left: 120px;
+    gap: 15px 20px;
+    align-self: center;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 600px) {
   .main__section {
-    padding-left: 100px;
   }
 }
 @media screen and (max-width: 550px) {
   .main__section {
-    padding-left: 50px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .main__section {
-    position: relative;
-    margin: 0 auto;
+    display: grid;
+    align-self: flex-end;
+    grid-template-columns: 35px 160px;
+    grid-template-rows: 210px 1fr;
+    margin-right: 40px;
     padding-bottom: 120px;
+    gap: 20px 0;
+    position: relative;
+    bottom: 100px;
+    max-height: 700px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .main__section {
+    margin-right: 20px;
   }
 }

@@ -1,0 +1,9 @@
+.promo__headers {
+  margin: 0 auto;
+  max-width: 700px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

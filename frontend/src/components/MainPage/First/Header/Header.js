@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const [is820, setIs820] = useState(true);
+  const [is820, setIs820] = useState();
   const [isMobileMenuOpened, setIsMobileMenuOpened] = useState(false);
 
   useEffect(() => {
+    window.addEventListener("load", handleResize);
     window.addEventListener("resize", handleResize);
   });
 

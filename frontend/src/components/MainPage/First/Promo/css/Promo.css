@@ -5,28 +5,28 @@
 }
 
 @media screen and (min-width: 1700px) {
-  .promo{
+  .promo {
     padding-bottom: 344px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .promo{
+  .promo {
     padding-bottom: 244px;
   }
 }
 @media screen and (max-width: 768px) {
-  .promo{
+  .promo {
     margin: 0 40px;
     padding-bottom: 204px;
   }
 }
 @media screen and (max-width: 500px) {
-  .promo{
+  .promo {
     padding-bottom: 180px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 400px) {
-  .promo{
+  .promo {
     margin: 0 25px;
   }
 }

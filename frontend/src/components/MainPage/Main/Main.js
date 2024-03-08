@@ -5,11 +5,11 @@ import Rental from "./Rental/Rental.js";
 
 function Main() {
   return (
-    <>
+    <div className="main__container">
       <AboutUs />
       <Tours />
       <Rental />
-    </>
+    </div>
   );
 }
 

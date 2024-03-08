@@ -8,14 +8,21 @@ function Promo() {
     <section className="promo">
       <div className="promo__links">
         <p className="promo__par">Follow Us</p>
-        <Link className="promo__link" to="https://www.instagram.com/what_sup_portugal?igsh=d2lnZ28yeHJreWk5&utm_source=qr" target="_blank">
-          <img src={instLogo} alt="instagram logo" />
+        <Link
+          className="promo__link"
+          to="https://www.instagram.com/what_sup_portugal?igsh=d2lnZ28yeHJreWk5&utm_source=qr"
+          target="_blank"
+        >
+          <img className="promo__image" src={instLogo} alt="instagram logo" />
         </Link>
         <Link className="promo__link" to="">
-          <img src={telLogo} alt="telegram logo" />
+          <img className="promo__image" src={telLogo} alt="telegram logo" />
         </Link>
       </div>
-      <h1 className="promo__header">Are you ready to SUP with us?</h1>
+      <div className="promo__headers">
+        <p className="promo__header">Are you ready to SUP with us?</p>
+        <h1 className="promo__sub-header">SUP tours and rental</h1>
+      </div>
     </section>
   );
 }

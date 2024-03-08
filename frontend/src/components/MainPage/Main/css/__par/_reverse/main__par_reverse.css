@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 500px) {
-  .main__image_reverse {
+  .main__par_reverse {
     grid-column-start: 1;
     grid-column-end: 2;
     justify-self: flex-end;
