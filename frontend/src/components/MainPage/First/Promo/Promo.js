@@ -19,10 +19,10 @@ function Promo() {
           <img className="promo__image" src={telLogo} alt="telegram logo" />
         </Link>
       </div>
-      <div className="promo__headers">
+      <article className="promo__headers">
         <p className="promo__header">Are you ready to SUP with us?</p>
         <h1 className="promo__sub-header">SUP tours and rental</h1>
-      </div>
+      </article>
     </section>
   );
 }
